@@ -1,11 +1,17 @@
 == README
+This is an app that allows users to create groups and then draw names for
+occasions like gift exchanges. Once a group is created by a user, they may
+invite their friends and family to join the group. Once all members are signed
+up, the app will assign each member to their "Secret Santa". An email goes out
+immediately letting each person know who's name they have drawn. A subsequent
+email is sent one month before the chosen gift exchange date.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - Ruby 2.1.6
 
 * System dependencies
 
