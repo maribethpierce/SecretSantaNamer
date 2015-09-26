@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'user registers', %Q{
+feature 'user registers', %{
   As a visitor
   I want to register
   So that I can create an account
@@ -14,8 +14,8 @@ feature 'user registers', %Q{
 
   scenario 'provide valid registration information' do
     visit new_user_registration_path
-
-    fill_in 'Email', with: 'john@example.com'
+    fill_in 'Name', with: 'name'
+    fill_in 'Email', with: 'jane@example.com'
     fill_in 'Password', with: 'password'
     fill_in 'Password confirmation', with: 'password'
 
