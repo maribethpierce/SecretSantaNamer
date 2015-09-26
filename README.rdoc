@@ -1,6 +1,7 @@
 == README
 
-![Build Status](https://codeship.com/projects/104952/status?branch=master)![Code Climate](https://codeclimate.com/github/maribethpierce/SecretSantaNamer.png)
+![Build Status](https://codeship.com/projects/104952/status?branch=master)
+![Code Climate](https://codeclimate.com/github/maribethpierce/SecretSantaNamer.png)
 ![Coverage Status](https://coveralls.io/repos/maribethpierce/SecretSantaNamer/badge.png)
 
 This is an app that allows users to create groups and then draw names for

@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'dotenv-rails'
 
+gem 'acts_as_votable', '~> 0.10.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
+gem 'pry'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -48,6 +51,7 @@ end
 
 
 gem 'rspec-rails', group: [:development, :test]
+gem 'pry-rails', group: [:development, :test]
 gem 'capybara', group: [:development, :test]
 gem 'launchy', group: [:development, :test]
 gem 'factory_girl', group: [:development, :test]
@@ -55,4 +59,5 @@ gem 'valid_attribute', group: [:development, :test]
 gem 'shoulda-matchers', group: [:development, :test], require: false
 gem 'devise'
 gem 'foundation-rails'
+gem 'quiet_assets'
 gem 'coveralls', require: false
