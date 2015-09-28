@@ -90,5 +90,5 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 require 'coveralls'
-Coveralls.wear!('rails')
+Coveralls.wear!
 end

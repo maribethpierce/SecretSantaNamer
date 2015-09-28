@@ -1,0 +1,19 @@
+<h1>These are all of my groups!</h1>
+
+<% if @groups.empty? %>
+  No groups yet. Go ahead, create one!
+<% else %>
+  <% @groups.each do |group| %>
+  <h3>Group Name:
+    <%= group.name %>
+  </h3>
+  <h4> Description : <%= group.description %> </h4>
+  <p>
+    Group Creator: <%= @users[group.user_id - 1].name %>
+  </p>
+  <% end %>
+<% end %>
+<p>
+
+</p>
+<%= button_to "Create a new group!", new_group_path, class: 'crud-buttons button expand round medium', method: :get %>
