@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   has_many :groups,
     through: :friends_groups
   validates :name, presence: true
-  validates :email, uniquesness: true
+  validates :email, uniqueness: true
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,

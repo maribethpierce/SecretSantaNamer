@@ -1,4 +1,4 @@
-<p>
-  Modify me in `app/views/homes/index.html.erb` or change the root directive in
-  `config/routes.rb`
-</p>
+<% if user_signed_in? %>
+  <%= button_to "See my groups", groups_path, method: :get %>
+  <%= button_to "Create a new group!", new_group_path, method: :get %>
+<% end %>
